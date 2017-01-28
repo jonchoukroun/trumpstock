@@ -1,10 +1,7 @@
-.image-grid {
-  width: 75%;
-}
-
-.image-grid .image {
+.image-grid img {
   padding: 5px;
   max-height: 250px;
+  min-width: 200px!important;
   vertical-align: bottom;
 }
 
@@ -13,7 +10,7 @@
     width: 90%;
     margin: 0 auto;
   }
-  .image-grid .image {
+  .image-grid img {
     margin: 0;
     padding: 0 0 10px;
     max-width: 100%;
