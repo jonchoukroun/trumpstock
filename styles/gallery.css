@@ -1,9 +1,21 @@
-.grid-sizer,
-.grid-item {
-  width: 20%;
+.image-grid {
+  width: 75%;
 }
 
-.grid-item img {
-  max-height: 200px;
-  margin-bottom: 10px;
+.image-grid .image {
+  padding: 5px;
+  max-height: 250px;
+  vertical-align: bottom;
+}
+
+@media (max-width: 768px) {
+  .image-grid {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .image-grid .image {
+    margin: 0;
+    padding: 0 0 10px;
+    max-width: 100%;
+  }
 }

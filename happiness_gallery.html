@@ -10,6 +10,9 @@
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <!-- Justified CSS -->
+  <link rel="stylesheet" href="./styles/justifiedGallery.css">
+
   <link rel="stylesheet" href="./styles/gallery.css">
   <link rel="stylesheet" href="./styles/action-modal.css">
 
@@ -35,81 +38,8 @@
   </header>
 
   <section class="image-gallery">
-    <div class="container">
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_115685188.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_117011377.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_112750960.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_123579487.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_127785641.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_130862018.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_177248666.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_186500258.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_190661036.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_19930774.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_234622321.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_309411233.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_373423591.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_528134971.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_543520243.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_61577875.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_73005034.jpg" alt="">
-        </div>
-
-        <div class="grid-item">
-          <img src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_83745613.jpg" alt="">
-        </div>
-      </div>
+    <div class="container image-grid">
+      <img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_115685188.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_117011377.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_112750960.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_123579487.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_130862018.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_177248666.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_186500258.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_190661036.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_19930774.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_234622321.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_309411233.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_127785641.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_373423591.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_528134971.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_543520243.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_61577875.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_73005034.jpg" alt=""><img class="image" src="http://s3.amazonaws.com/trumpstockphotos/happiness/shutterstock_83745613.jpg" alt="">
     </div>
   </section>
 
@@ -145,14 +75,13 @@
   <!-- Bootstrap Core JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <!-- Masonry -->
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
-  <!-- Images Loaded -->
+  <!-- Collage -->
+  <script src="js/jquery.collagePlus.min.js"></script>
+  <script src="js/collage.js"></script>
   <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
 
   <!-- Custom JavaScript -->
-  <script src="js/masonry.js"></script>
+  <script src="js/images-grid.js"></script>
   <script src="js/action-modal.js"></script>
 
 </body>
