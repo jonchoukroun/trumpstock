@@ -1,8 +1,8 @@
-$(window).load(function() {
+$('.grid').imagesLoaded(function(){
   $('.grid').masonry({
-    itemSelector: '.grid-item',
     columnWidth: '.grid-sizer',
-    gutter: '.gutter-sizer',
+    itemSelector: '.grid-item',
+    gutter: 10,
     percentPosition: true
   });
 });
