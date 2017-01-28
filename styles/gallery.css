@@ -1,0 +1,9 @@
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+
+.grid-item img {
+  max-height: 200px;
+  margin-bottom: 10px;
+}
