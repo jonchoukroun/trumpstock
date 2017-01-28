@@ -1,0 +1,9 @@
+ .service-box {
+
+   		border: 1px solid #0089d0;
+   		background-color:rgba(0,60,128,1);
+   		padding:1% 0%;
+   		margin:4px;
+        color:white;
+        font-size:15px;
+   }
