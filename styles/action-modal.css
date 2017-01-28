@@ -1,0 +1,15 @@
+.action-modal {
+  position: fixed;
+  height: 10em;
+  width: 100em;
+  top: 50%;
+  left: 50%;
+  margin-top: -5em;
+  margin-left: -50em;
+  text-align: center;
+  background: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.action-modal .row {
+}
