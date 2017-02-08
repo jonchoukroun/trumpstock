@@ -53,7 +53,7 @@
                       <div class="form-group">
                         <input  style="padding-left:10px; padding-right:0px;padding-top:20px; font-size: 16px; padding-bottom:20px; width: 280px;"type="text" class="form-control" placeholder="Search from Trump's perspective..." focus=true>
                       </div>
-                      <a href="./empty_search.html" style=" padding-top: 10px; padding-bottom: 10px; padding-left:40px; margin-left: 10px; padding-right:40px;font-weight:bold; border-color: #cca012;" type="submit" class="btn btn-default">SEARCH</a>
+                      <button type="button" class="btn btn-primary" style="padding-top: 10px; padding-bottom: 10px; padding-left:40px; margin-left: 10px; padding-right:40px;font-weight:bold; border-color: #cca012;" data-toggle="modal" data-target="#welcome-modal">SEARCH</button>
                       </form>
 
                  </div>
@@ -61,49 +61,40 @@
 
               </div>
 
-                 
+
         </div>
         <div class="container" style="padding-top:1%;">
             <div class="row">
                 <div class="col-md-6 col-md-offset-1">
-          
-                   
-                  </div> 
-            </div>   
+
+
+                  </div>
+            </div>
         </div>
 
 
     </header>
 
-    <section class="lower-half" id="services" style="padding:1% 0% 0% 0%;">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-12 text-center" style="padding-bottom:5%;">
-                
-                     <h3></h3>
-                      
-                  </div>
-              </div>
+    <div id="welcome-modal" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+            <h3 class="modal-title">Thank You For Your Interest In Stock Photography</h3>
           </div>
 
-
-    </section>
-
+          <div class="modal-body" style="padding: 20px">
+            <h4 style="margin: 20px 0;">We decided not to run this marketing campaign.</h4>
+            <a href="https://medium.com/@miccohen/glenn-beck-just-convinced-me-not-to-run-our-anti-trump-marketing-campaign-d738bfa8ad1a#.e1hormsnl" style=" padding-top: 10px; padding-bottom: 10px; padding-left:40px; margin-left: 10px; padding-right:40px;font-weight:bold; border-color: #cca012;" type="submit" class="btn btn-default">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
     <!--footer-->
     <section id="contact" class="lower-half" style="margin-top: 5%;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                 <p style="color:#BFC5CB;">Made by <a style="color:#BFC5CB; text-decoration:underline;" href="https://twenty20.com">Twenty20</a></p> 
-                 <p style="color:#BFC5CB;padding-bottom:3%;"><a style="color:gray; text-decoration:underline;" href="./about.html" target="_blank">Why?</a></p> 
-                 
-
-                </div>
-            </div>
-        </div>
     </section>
 
   <!-- jQuery -->
@@ -115,11 +106,6 @@
   <!-- Bootstrap Core JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <!-- Custom JS -->
-  <script src="./js/search.js"></script>
-
-
 </body>
-
 </html>
 
